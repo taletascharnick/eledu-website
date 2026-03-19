@@ -1,0 +1,45 @@
+/* ─── Breakpoints: sm 641px | md 769px | lg 1024px ─── */
+/* ─── Design tokens ─────────────────────────────────── */
+:root {
+  --color-primary:      #8D1811;
+  --color-primary-dark: #C0392B;
+  --color-on-primary:   #FFFFFF;
+  --color-surface:      #1A1A1A;
+  --color-background:   #FFFFFF;
+  --color-text:         #1A1A1A;
+}
+
+/* ─── Reset ─────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ─── Keyboard focus styles ─────────────────────────── */
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
