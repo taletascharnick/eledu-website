@@ -18,13 +18,14 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 112.5%; /* 18px base — improves readability across all rem values */
 }
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--color-background);
   color: var(--color-text);
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 a {

@@ -10,20 +10,24 @@
             Elsa Lamprecht is an experienced Accounting tutor based in
             <strong>George</strong>, South Africa. With more than
             <strong>40 years of teaching experience</strong>, she has guided
-            countless high school learners from various schools in George towards
-            a confident understanding of Accounting.
+            countless high school learners from various schools in the country and now in George towards a confident understanding of Accounting.
           </p>
           <p>
             Her passion for both teaching and the subject itself shines through
             in every lesson — making complex concepts accessible and giving
             learners the tools they need to succeed.
           </p>
+          <p>
+            Extra classes are held at her home in George, conveniently located
+            near the <strong>SARS building on York Street</strong> — easy to
+            find and accessible for learners from across the area.
+          </p>
         </div>
 
         <div class="about__highlights">
           <div class="about__card">
             <span class="about__card-number" aria-hidden="true">40+</span>
-            <span class="about__card-label">years of experience</span>
+            <span class="about__card-label">Years of experience</span>
           </div>
           <div class="about__card">
             <span class="about__card-number" aria-hidden="true">&#x2696;</span>
@@ -64,7 +68,7 @@
 }
 
 .about__title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 800;
   color: var(--color-text);
   margin-bottom: 1.5rem;
@@ -81,7 +85,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: #333;
   line-height: 1.8;
 }
@@ -99,16 +103,18 @@
   padding: 1.25rem 1.5rem;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.75rem;
 }
 
 .about__card-number {
   font-size: 2rem;
   font-weight: 800;
   flex-shrink: 0;
-  width: 3rem;
+  width: 4.5rem;
   text-align: center;
   line-height: 1;
+  border-right: 2px solid rgba(255, 255, 255, 0.35);
+  padding-right: 1.75rem;
 }
 
 .about__card-label {

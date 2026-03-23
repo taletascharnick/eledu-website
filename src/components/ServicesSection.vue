@@ -74,7 +74,7 @@ const services = [
 }
 
 .services__title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 800;
   color: var(--color-text);
   margin-bottom: 0.75rem;
@@ -82,7 +82,7 @@ const services = [
 
 .services__intro {
   color: #444;
-  font-size: 1rem;
+  font-size: 1.05rem;
   max-width: 680px;
   margin-bottom: 2.5rem;
   line-height: 1.7;
@@ -114,14 +114,14 @@ const services = [
 }
 
 .services__card-title {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: var(--color-text);
   margin-bottom: 0.5rem;
 }
 
 .services__card-desc {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #444;
   line-height: 1.7;
 }

@@ -34,10 +34,6 @@
       <a href="mailto:eleducation2021@gmail.com" class="contact__cta">
         Send an Email
       </a>
-
-      <p class="contact__alt-note">
-        Prefer WhatsApp? If you have Elsa's number, you're welcome to message directly.
-      </p>
     </div>
   </section>
 </template>
@@ -72,12 +68,12 @@
 }
 
 .contact__title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 
 .contact__intro {
-  font-size: 1rem;
+  font-size: 1.05rem;
   opacity: 0.9;
   max-width: 520px;
   line-height: 1.7;
@@ -106,7 +102,7 @@
 }
 
 .contact__label {
-  font-size: 0.78rem;
+  font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   opacity: 0.75;
@@ -114,7 +110,7 @@
 }
 
 .contact__value {
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 600;
 }
 

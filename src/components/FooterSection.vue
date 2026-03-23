@@ -70,14 +70,14 @@
 }
 
 .footer__email {
-  color: var(--color-primary);
+  color: #ff7c79;
   font-weight: 600;
   font-size: 0.95rem;
   transition: color 0.2s;
 }
 
 .footer__email:hover {
-  color: #ff7c79;
+  color: #ffb3b1;
 }
 
 .footer__copy {
