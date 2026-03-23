@@ -34,6 +34,10 @@
       <a href="mailto:eleducation2021@gmail.com" class="contact__cta">
         Send an Email
       </a>
+
+      <p class="contact__alt-note">
+        Prefer WhatsApp? If you have Elsa's number, you're welcome to message directly.
+      </p>
     </div>
   </section>
 </template>
@@ -137,6 +141,12 @@
 .contact__cta:hover {
   background-color: var(--color-surface);
   color: #fff;
+}
+
+.contact__alt-note {
+  font-size: 0.88rem;
+  opacity: 0.8;
+  margin-top: -0.25rem;
 }
 
 @media (min-width: 481px) {

@@ -16,7 +16,7 @@
         class="navbar__toggle"
         :aria-expanded="menuOpen.toString()"
         aria-controls="mobile-nav"
-        aria-label="Toggle navigation"
+        :aria-label="menuOpen ? 'Close navigation' : 'Open navigation'"
         @click="menuOpen = !menuOpen"
       >
         <span aria-hidden="true"></span>
@@ -34,8 +34,17 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 const menuOpen = ref(false)
+
+function handleKeydown(e) {
+  if (e.key === 'Escape' && menuOpen.value) {
+    menuOpen.value = false
+  }
+}
+
+onMounted(() => document.addEventListener('keydown', handleKeydown))
+onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
 </script>
 
 <style scoped>

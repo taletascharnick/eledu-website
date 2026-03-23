@@ -23,7 +23,7 @@
         <div class="about__highlights">
           <div class="about__card">
             <span class="about__card-number" aria-hidden="true">40+</span>
-            <span class="about__card-label">40+ years of experience</span>
+            <span class="about__card-label">years of experience</span>
           </div>
           <div class="about__card">
             <span class="about__card-number" aria-hidden="true">&#x2696;</span>
@@ -82,7 +82,7 @@
   flex-direction: column;
   gap: 1rem;
   font-size: 1rem;
-  color: #444;
+  color: #333;
   line-height: 1.8;
 }
 
