@@ -12,7 +12,7 @@
         </p>
 
         <div class="hero__actions">
-          <a href="#contact" class="btn btn--primary">Get Started</a>
+          <a href="#contact" class="btn btn--primary">Contact me</a>
         </div>
       </div>
 
