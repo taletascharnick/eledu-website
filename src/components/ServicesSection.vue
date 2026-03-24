@@ -44,7 +44,7 @@ const services = [
     icon: '📊',
     title: 'Grade 10 – 12 Coverage',
     description:
-      'Full CAPS Accounting curriculum support from Grade 10 through to Matric final exams.',
+      'Full CAPS/IEB Accounting curriculum support from Grade 10 through to Matric final exams.',
   },
 ]
 </script>

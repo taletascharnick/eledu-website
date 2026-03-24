@@ -19,7 +19,7 @@
           </p>
           <p>
             Extra classes are held at her home in George, conveniently located
-            near the <strong>SARS building on York Street</strong> — easy to
+            near the <strong>PNA (Shamrock Place) on 97 York Street</strong> — easy to
             find and accessible for learners from across the area.
           </p>
         </div>
