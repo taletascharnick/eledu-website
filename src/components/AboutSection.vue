@@ -19,8 +19,9 @@
           </p>
           <p>
             Extra classes are held at her home in George, conveniently located
-            near the <strong>PNA (Shamrock Place) on 97 York Street</strong> — easy to
-            find and accessible for learners from across the area.
+            near the <strong>PNA on York Street</strong> — easy to find and accessible
+            for learners from across the area. The exact address is shared directly
+            upon scheduling a visit.
           </p>
         </div>
 

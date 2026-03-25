@@ -1,39 +1,58 @@
 <template>
   <section id="contact" class="contact" aria-labelledby="contact-heading">
     <div class="contact__container">
-      <div class="contact__badge">Contact</div>
-      <h2 id="contact-heading" class="contact__title">Get in Touch</h2>
-      <p class="contact__intro">
-        Interested in tutoring for your child? Reach out to Elsa directly by
-        email and she will get back to you as soon as possible.
-      </p>
-
-      <div class="contact__card">
-        <div class="contact__row">
-          <span class="contact__icon" aria-hidden="true">✉️</span>
-          <div>
-            <p class="contact__label">Email</p>
-            <a
-              href="mailto:eleducation2021@gmail.com"
-              class="contact__value contact__link"
-            >
-              eleducation2021@gmail.com
-            </a>
-          </div>
-        </div>
-
-        <div class="contact__row">
-          <span class="contact__icon" aria-hidden="true">📍</span>
-          <div>
-            <p class="contact__label">Location</p>
-            <p class="contact__value">George, Western Cape, South Africa</p>
-          </div>
-        </div>
+      <div class="contact__map">
+        <iframe
+          src="https://maps.google.com/maps?q=PNA,+York+Street,+George,+Western+Cape,+South+Africa&output=embed&z=16"
+          title="General area map – York Street, George"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
 
-      <a href="mailto:eleducation2021@gmail.com" class="contact__cta">
-        Send an Email
-      </a>
+      <div class="contact__info">
+        <div class="contact__badge">Contact</div>
+        <h2 id="contact-heading" class="contact__title">Get in Touch</h2>
+        <p class="contact__intro">
+          Interested in tutoring for your child? Reach out to Elsa directly by
+          email and she will get back to you as soon as possible.
+        </p>
+
+        <div class="contact__card">
+          <div class="contact__row">
+            <span class="contact__icon" aria-hidden="true">✉️</span>
+            <div>
+              <p class="contact__label">Email</p>
+              <a
+                href="mailto:eleducation2021@gmail.com"
+                class="contact__value contact__link"
+              >
+                eleducation2021@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__row">
+            <span class="contact__icon" aria-hidden="true">📍</span>
+            <div>
+              <p class="contact__label">Location</p>
+              <p class="contact__value">George, Western Cape, South Africa</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="contact__map-note">
+          For privacy and security, our exact home address is not listed publicly. Please contact us directly to schedule a consultation or to receive our address for a planned visit.
+        </p>
+
+        <a href="mailto:eleducation2021@gmail.com" class="contact__cta">
+          Send an Email
+        </a>
+      </div>
     </div>
   </section>
 </template>
@@ -46,12 +65,19 @@
 }
 
 .contact__container {
-  max-width: 700px;
+  max-width: 1100px;
   margin: 0 auto;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.contact__info {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 1.25rem;
 }
 
@@ -145,6 +171,22 @@
   margin-top: -0.25rem;
 }
 
+.contact__map-note {
+  font-size: 0.92rem;
+  opacity: 0.85;
+  line-height: 1.6;
+  max-width: 520px;
+  font-style: italic;
+}
+
+.contact__map {
+  width: 100%;
+  min-height: 340px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+}
+
 @media (min-width: 481px) {
   .contact {
     padding: 4rem 1.5rem;
@@ -156,6 +198,25 @@
 
   .contact__card {
     padding: 1.75rem 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact__info {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .contact__card {
+    width: 100%;
+  }
+
+  .contact__cta {
+    align-self: flex-start;
   }
 }
 </style>
